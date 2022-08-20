@@ -25,16 +25,16 @@ The CleanTest project is a small project to show the usage of the functions set 
   - *Usage*
     Make sure you have the complete CSFML package available on your OS.
     
-         $>make re
-         $>./test
+         $> make re
+         $> ./test
 
 ## .Already Available 👾
 
-- [x]Sprite Creation
-- [x]Sprite Animation
-- [x]Window Creation
-- [x]Click management on text
-- [x]Click management on sprite
-- [x]Text Management
+- [x] Sprite Creation
+- [x] Sprite Animation
+- [x] Window Creation
+- [x] Click management on text
+- [x] Click management on sprite
+- [x] Text Management
 
 > :pushpin: To report error or suggest some news features please send a mail to <junior.medehou@hotmail.com>.
