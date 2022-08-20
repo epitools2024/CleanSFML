@@ -11,12 +11,10 @@ sfRenderWindow *create_window(unsigned int width,
                               unsigned int height, char const *title)
 {
     sfRenderWindow *Window;
-    sfVideoMode mode;
+    sfVideoMode mode = (sfVideoMode){width, height, 32};
 
-    mode.width = width;
-    mode.height = height;
-    mode.bitsPerPixel = 32;
     Window = sfRenderWindow_create(mode, title, sfResize | sfClose, NULL);
+    sfRenderWindow_setFramerateLimit(Window, 32);
     return (Window);
 }
 
